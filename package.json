@@ -1,26 +1,24 @@
 {
   "name": "keeper-part-3-starting",
   "version": "1.0.0",
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "description": "",
   "keywords": [],
   "main": "src/index.js",
-  "dependencies": {
+  "dependencies" : {
     "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",
     "@mui/core": "^5.0.0-alpha.53",
     "@mui/icons-material": "^5.0.5",
     "@mui/material": "^5.0.6",
-    "express": "^4.17.1",
     "react": "^16.14.0",
     "react-dom": "16.8.6",
-    "react-scripts": "^4.0.3",
-    "watchman": "^1.0.0"
+    "react-scripts": "^4.0.3"
   },
   "devDependencies": {
     "typescript": "3.3.3"
   },
   "scripts": {
-    "start": "node/server.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
@@ -30,19 +28,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Alex-develops/Sticky_notes_react.git"
-  },
-  "author": "Alex-develops",
-  "license": "ISC",
-  "engines": {
-    "node": "14.17.6",
-    "npm": "6.14.15"
-  },
-  "bugs": {
-    "url": "https://github.com/Alex-develops/Sticky_notes_react/issues"
-  },
-  "homepage": "https://github.com/Alex-develops/Sticky_notes_react#readme"
+  ]
 }
